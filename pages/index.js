@@ -32,16 +32,16 @@ export default function Home() {
                 <Image src={Logo} alt="title" />
               </li>
               <li>
-                <Link href="/">Home</Link>
+                <Link href={'#'}>Home</Link>
               </li>
               <li>
-                <Link href="/">Download</Link>
+                <Link href={'#'}>Download</Link>
               </li>
               <li>
-                <Link href="/">App</Link>
+                <Link href={'#'}>App</Link>
               </li>
               <li>
-                <Link href="/">Login</Link>
+                <Link href={'#'}>Login</Link>
               </li>
               <li>
                 <button>Get Started</button>
