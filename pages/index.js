@@ -6,6 +6,7 @@ import IconTwitter from "../public/images/icon-twitter.svg";
 import IconYouTube from "../public/images/icon-youtube.svg";
 import IconLaptop from "../public/images/icon-laptop.svg";
 import Image from 'next/image';
+import Link from 'next/link';
 export default function Home() {
   return (
     <>
@@ -31,16 +32,16 @@ export default function Home() {
                 <Image src={Logo} alt="title" />
               </li>
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="/">Download</a>
+                <Link href="/">Download</Link>
               </li>
               <li>
-                <a href="/">App</a>
+                <Link href="/">App</Link>
               </li>
               <li>
-                <a href="/">Login</a>
+                <Link href="/">Login</Link>
               </li>
               <li>
                 <button>Get Started</button>
